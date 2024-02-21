@@ -1,9 +1,6 @@
 import 'zone.js/dist/zone';
 import { Component, OnInit } from '@angular/core';
 
-
-//without this line, PixiPlugin and MotionPathPlugin may get dropped by your bundler (tree shaking)...
-gsap.registerPlugin(ScrollTrigger);
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
