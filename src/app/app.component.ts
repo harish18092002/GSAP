@@ -1,9 +1,6 @@
 import 'zone.js/dist/zone';
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { bootstrapApplication } from '@angular/platform-browser';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 
 //without this line, PixiPlugin and MotionPathPlugin may get dropped by your bundler (tree shaking)...
 gsap.registerPlugin(ScrollTrigger);
