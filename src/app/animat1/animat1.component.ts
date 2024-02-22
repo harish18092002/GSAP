@@ -1,8 +1,7 @@
-import { Component } from '@angular/core';
+import 'zone.js/dist/zone';
+import { Component, OnInit } from '@angular/core';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-animat1',
@@ -12,6 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 export class Animat1Component {
   ngOnInit() {
     this.setupGsap();
+    console.log("Hi harish")
   }
 
   setupGsap(): void {
