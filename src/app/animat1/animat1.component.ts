@@ -2,7 +2,7 @@ import 'zone.js/dist/zone';
 import { Component, OnInit } from '@angular/core';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+gsap.registerPlugin(ScrollTrigger);
 @Component({
   selector: 'app-animat1',
   templateUrl: './animat1.component.html',
