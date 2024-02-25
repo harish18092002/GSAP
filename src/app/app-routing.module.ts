@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Animat1Component } from './animat1/animat1.component';
 import { AppComponent } from './app.component';
+import { AnimatesecondComponent } from './animatesecond/animatesecond.component';
 
 const routes: Routes = [
   {
@@ -9,6 +10,8 @@ const routes: Routes = [
     component: AppComponent,
     children: [
       { path: 'animate', component: Animat1Component },
+      { path: 'animatesecond', component: AnimatesecondComponent },
+
       { path: '**', redirectTo: 'animate' },
     ],
   },
