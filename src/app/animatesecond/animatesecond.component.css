@@ -17,7 +17,7 @@ body {
 .horizontal-section {
     height: 100vh;
     width: 400vw;
-    background: lightblue;
+    background: rgb(0, 0, 0);
 }
 
 .boxes {
@@ -28,10 +28,13 @@ body {
 }
 
 .box {
-    width: 400px;
+    width: auto;
+    margin: 2rem;
     height: 50%;
-    background: gray;
-    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 12rem;
 }
 
 .header-section {
