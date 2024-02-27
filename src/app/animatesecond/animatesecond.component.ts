@@ -32,7 +32,7 @@ export class AnimatesecondComponent implements OnInit {
     });
   }
   ngAfterViewInit(): void {
-    gsap.to('.exclamation', { scaleY: -1, duration: 1, repeat: -1 });
+    gsap.to('.exclamation', { y: -15, repeat: -1, yoyo: true, duration: 0.5 });
   }
 
 }

@@ -16,7 +16,7 @@ body {
 
 .horizontal-section {
     height: 100vh;
-    width: 400vw;
+    width: 420vw;
     background: rgb(0, 0, 0);
 }
 
@@ -28,19 +28,18 @@ body {
 }
 
 .lets {
-    color: blue;
+    color: blue !important;
     /* Change to the desired color */
 }
 
 .today {
-    color: red;
+    color: red !important;
     /* Change to the desired color */
 }
 
 .exclamation {
     display: inline-block;
     transform-origin: center;
-    position: relative;
 }
 
 .box {
