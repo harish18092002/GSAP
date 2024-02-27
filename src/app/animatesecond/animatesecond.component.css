@@ -27,6 +27,22 @@ body {
     height: 100%;
 }
 
+.lets {
+    color: blue;
+    /* Change to the desired color */
+}
+
+.today {
+    color: red;
+    /* Change to the desired color */
+}
+
+.exclamation {
+    display: inline-block;
+    transform-origin: center;
+    position: relative;
+}
+
 .box {
     width: auto;
     margin: 2rem;
