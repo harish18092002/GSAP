@@ -1,5 +1,5 @@
 import { Component, ElementRef, HostListener } from '@angular/core';
-import { gsap } from 'gsap';
+import gsap from 'gsap'; // or import { gsap } from 'gsap/all';
 
 @Component({
   selector: 'app-animatesecond',
