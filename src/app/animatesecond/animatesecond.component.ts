@@ -9,8 +9,8 @@ import gsap from 'gsap'; // or import { gsap } from 'gsap/all';
 export class AnimatesecondComponent {
   constructor(private elementRef: ElementRef) { }
 
-  @HostListener('window:scroll', ['$event'])
-  onScroll(event: any) {
+  @HostListener('window:scroll')
+  onScroll() {
     const connectNowElement = this.elementRef.nativeElement.querySelector('.connect-now');
     const scrollVelocity = window.scrollY;
 
