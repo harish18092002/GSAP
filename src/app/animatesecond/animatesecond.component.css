@@ -20,7 +20,7 @@ body {
     background: rgb(0, 0, 0);
 }
 
-.boxes {
+.words {
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -28,12 +28,12 @@ body {
 }
 
 .lets {
-    color: blue !important;
+    color: rgb(0, 217, 255) !important;
     /* Change to the desired color */
 }
 
 .today {
-    color: red !important;
+    color: rgb(0, 217, 255) !important;
     /* Change to the desired color */
 }
 
@@ -42,7 +42,7 @@ body {
     transform-origin: center;
 }
 
-.box {
+.word {
     width: auto;
     margin: 2rem;
     height: 50%;
