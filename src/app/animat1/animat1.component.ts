@@ -20,7 +20,7 @@ export class Animat1Component {
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: '.container',
-        start: 'top center', // when the top of the trigger hits the top of the viewport
+        start: ' center top', // when the top of the trigger hits the top of the viewport
         end: '+=400', // end after scrolling 500px beyond the start
         scrub: 1, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
       },
