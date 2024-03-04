@@ -2,7 +2,6 @@ import 'zone.js/dist/zone';
 import { Component, OnInit } from '@angular/core';
 // for gsap libraries
 import { gsap } from 'gsap';
-
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 @Component({
