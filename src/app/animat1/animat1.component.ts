@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 export class Animat1Component {
   ngOnInit() {
     this.setupGsap();
-    console.log("Hi ")
+    console.log("Hi harish ")
   }
 
   setupGsap(): void {
