@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Animat1Component } from './animat1/animat1.component';
 import { AnimatesecondComponent } from './animatesecond/animatesecond.component';
+import { AnimatethirdComponent } from './animatethird/animatethird.component';
 
 // gsap.registerPlugin(ScrollTrigger);
 @NgModule({
   declarations: [
     AppComponent,
     Animat1Component,
-    AnimatesecondComponent
+    AnimatesecondComponent,
+    AnimatethirdComponent
   ],
   imports: [
     BrowserModule,
