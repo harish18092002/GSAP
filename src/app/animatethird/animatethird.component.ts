@@ -29,6 +29,7 @@ export class AnimatethirdComponent implements OnInit {
       });
     }, options);
 
+
     observer.observe(this.el.nativeElement);
   }
 
